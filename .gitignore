@@ -1,3 +1,6 @@
 **/*.pyc
 .cache
 .venv/
+.idea
+*.swp
+*.swo

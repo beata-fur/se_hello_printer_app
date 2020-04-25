@@ -6,6 +6,7 @@ from flask import request
 moje_imie = "Beata"
 msg = "Hello World!"
 
+
 @app.route('/')
 def index():
     print("In main route")
@@ -14,6 +15,7 @@ def index():
         arg = PLAIN
     print("arg= " + arg)
     return get_formatted(msg, moje_imie, arg)
+
 
 @app.route('/outputs')
 def supported_output():
