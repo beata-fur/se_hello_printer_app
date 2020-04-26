@@ -84,3 +84,12 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
+- Podpowiedź, żeby zainstalować python3-ven JEŚLI nie jest ten pakiet jeszcze zainstalowany:
+    $ sudo apt-get update
+    $ sudo apt-get install python3-venv
+
+- Makefile:
+    $ make deps
+    $ make test
+    $ make lint
+    
