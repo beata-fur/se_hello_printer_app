@@ -4,3 +4,5 @@
 .idea
 *.swp
 *.swo
+test_results.xml
+coverage.xml
