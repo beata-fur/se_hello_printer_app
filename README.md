@@ -47,7 +47,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
@@ -92,4 +92,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
     $ make deps
     $ make test
     $ make lint
-    
+
+- 1. Monitoring w  statuscake.com:
+  grupa kontaktowa: Beata
+- URL: https://blooming-spire-19296.herokuapp.com/
+- Nazwa: bloomingTest
+
+- travis
+[![Build Status](https://travis-ci.org/beata-fur/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/beata-fur/se_hello_printer_app)
+
+- statuscake
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=5553762&Days=1&Design=2" /></a>
