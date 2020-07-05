@@ -10,6 +10,8 @@ script:
 - make lint
 - make docker_build
 - make docker_push
+- make docker_run
+- sleep 3; make test_api
 
 deploy:
  provider: heroku

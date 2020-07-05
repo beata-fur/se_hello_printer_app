@@ -1,4 +1,4 @@
-.PHONY: test
+.PHONY: test test_api
 
 deps:
 	pip install -r requirements.txt
@@ -6,6 +6,9 @@ deps:
 
 test:
 	PYTHONPATH=. py.test
+
+test_api:
+	PYTHONPATH=. python test_api/check_api.py
 
 test_cov:
 	PYTHONPATH=. py.test --verbose -s --cov=.
